@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "PhishGuard Browser Protection",
+  "version": "1.0.0",
+  "description": "Checks the current page with PhishGuard and warns before risky links are used.",
+  "permissions": [
+    "tabs"
+  ],
+  "host_permissions": [
+    "http://127.0.0.1:8080/*",
+    "http://localhost:8080/*",
+    "https://*/*",
+    "http://*/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_start"
+    }
+  ]
+}

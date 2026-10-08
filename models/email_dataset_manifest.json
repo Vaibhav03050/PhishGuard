@@ -1,0 +1,42 @@
+{
+  "datasets": [
+    {
+      "file": "CEAS_08.csv",
+      "used_for_training": true,
+      "rows": 19993
+    },
+    {
+      "file": "Enron.csv",
+      "used_for_training": true,
+      "rows": 19837
+    },
+    {
+      "file": "Ling.csv",
+      "used_for_training": true,
+      "rows": 2856
+    },
+    {
+      "file": "SpamAssasin.csv",
+      "used_for_training": true,
+      "rows": 5806
+    },
+    {
+      "file": "phishing_email.csv",
+      "used_for_training": true,
+      "rows": 19922
+    }
+  ],
+  "inspected_but_excluded": [
+    {
+      "file": "Nazario.csv",
+      "reason": "contains only positive labels"
+    },
+    {
+      "file": "Nigerian_Fraud.csv",
+      "reason": "contains only positive labels"
+    }
+  ],
+  "final_rows": 68414,
+  "deduplication": "Exact normalized text duplicates removed after per-source cap.",
+  "primary_task": "Email phishing/spam risk classification"
+}

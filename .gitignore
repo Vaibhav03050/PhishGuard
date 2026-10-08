@@ -1,0 +1,12 @@
+venv/
+.env
+__pycache__/
+*.pyc
+training_data/
+upload_data_to_db/
+notebook_implementation/
+*.csv
+*.zip
+.ipynb_checkpoints/
+.DS_Store
+/notebook_implementation/

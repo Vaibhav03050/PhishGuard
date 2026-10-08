@@ -1,0 +1,25 @@
+{
+  "model": "RandomForestClassifier",
+  "dataset_rows": 11055,
+  "features": [
+    "having_IP_Address",
+    "URL_Length",
+    "Shortining_Service",
+    "having_At_Symbol",
+    "double_slash_redirecting",
+    "Prefix_Suffix",
+    "having_Sub_Domain",
+    "SSLfinal_State",
+    "Domain_registeration_length",
+    "port",
+    "HTTPS_token",
+    "Abnormal_URL",
+    "age_of_domain",
+    "DNSRecord"
+  ],
+  "accuracy": 0.9177,
+  "precision": 0.9006,
+  "recall": 0.9153,
+  "f1": 0.9079,
+  "roc_auc": 0.9706
+}
